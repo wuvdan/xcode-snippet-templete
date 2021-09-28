@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@Shadow</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    self.operationView.layer.shadowColor = FTHexColor(0x0A0204, 1).CGColor;
+    self.operationView.layer.shadowOffset = CGSizeMake(0, 2);
+    self.operationView.layer.shadowOpacity = 0.1;
+    self.operationView.layer.shadowRadius = 4;
+    self.operationView.layer.cornerRadius = kWidth(7.2);</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C2F3152D-4783-4038-B717-C6C40122CC2F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>阴影</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>阴影</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@LazyStackView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIStackView *)&lt;#name#&gt;StackView {
+    if (!_&lt;#name#&gt;StackView) {
+        _&lt;#name#&gt;StackView = [[UIStackView alloc] initWithArrangedSubviews:@[]];
+        _&lt;#name#&gt;StackView.distribution = UIStackViewDistributionFillEqually;
+        _&lt;#name#&gt;StackView.alignment = UIStackViewAlignmentCenter;
+        _&lt;#name#&gt;StackView.axis = UILayoutConstraintAxisHorizontal;
+        _&lt;#name#&gt;StackView.spacing = 3;
+    }
+    return _&lt;#name#&gt;StackView;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6AD0C14B-2D91-46E5-A582-1B74183C49A0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>懒加载-StackView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>懒加载-StackView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
